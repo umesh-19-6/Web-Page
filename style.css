@@ -1,0 +1,278 @@
+body {
+    background-color: #b6ffff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header {
+    text-align: center;
+    background-color: #f7ffff;
+    padding: 3px;
+}
+
+header .navigation a {
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 6px 25px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.coverText {
+    align-items: center;
+    margin-left: 120px;
+    display: flex;
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-weight: bold;
+}
+
+.coverText h1 {
+    margin: auto;
+    font-size: 70px;
+}
+
+.name {
+    padding: 40px;
+}
+
+.grid-wrapper {
+    display: grid;
+    max-width: 1050px;
+    margin: auto;
+    grid-gap: 10px;
+}
+
+.service {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+    padding: 0;
+}
+
+.services h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.box {
+    background-color: #f7ffff;
+    color: black;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.box>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box h1 {
+    font-size: 2rem;
+}
+
+.box p {
+    font-size: 1.3rem;
+}
+
+.box>.text2 {
+    padding: 0 25px 25px;
+}
+
+.card {
+    display: flex;
+    background-color: #f7ffff;
+    color: black;
+    width: 1100px;
+    margin-bottom: 90px;
+}
+
+.card1 {
+    background-color: #f7ffff;
+    color: black;
+}
+
+.card h1 {
+    font-size: 2rem;
+}
+
+.card p {
+    font-size: 1.3rem;
+}
+
+.card1 p {
+    font-size: 1.3rem;
+    margin: 30px;
+    width: 350px;
+}
+
+.card>.text {
+    padding: 0 25px 25px;
+}
+
+
+p {
+    font-size: 15px;
+}
+
+pre {
+    font-size: 20px;
+}
+
+.contain {
+    background-color: #4be8ff;
+    width: 150%;
+    border-radius: 15px;
+}
+
+.about {
+    padding-top: 125px;
+}
+
+.skills {
+    padding-top: 195px;
+}
+
+.services {
+    padding-top: 100px;
+}
+
+.contact {
+    padding-top: 50px;
+}
+
+
+.skill {
+    background-color: #347686;
+    color: rgb(3, 3, 3);
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+    padding-top: 13px;
+}
+
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 90%;
+}
+
+.JavaScript {
+    width: 70%;
+}
+
+.Php {
+    width: 60%;
+}
+
+.Mysql {
+    width: 70%;
+}
+
+.container1 {
+    border: 3px solid black;
+    display: flex;
+    max-width: 1250px;
+    margin: auto;
+    grid-gap: 10px;
+}
+
+.graph {
+    background-color: #f7ffff;
+    width: 900px;
+}
+
+.graph1 {
+    width: 500px;
+    padding: 30px;
+
+}
+
+.text1 {
+    text-align: center;
+}
+
+.ENQUIRY {
+    padding: 3px;
+    background-color: #f7ffff;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 40px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #b6ffff;
+    color: black;
+    padding: 12px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #00ccff;
+}
+
+input[type=reset] {
+    background-color: #b6ffff;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: #00ccff ;
+}
+
+form {
+    max-width: 720px;
+    margin: auto;
+    font-size: large;
+}
+
+footer.parta {
+    text-align: center;
+    padding: 3px;
+    background-color: #f7ffff ;
+}
+
+footer.parta a {
+    color: #00ccff;
+}
+
+footer.part {
+    text-align: center;
+    padding: 3px;
+    background-color: #f7ffff;
+}
